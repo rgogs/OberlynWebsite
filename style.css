@@ -1,5 +1,38 @@
 * {
-  background-color: black;
+
+}
+/* Navbar */
+.navbar{
+  width: 100%;
+  background-color:rgba(0,0,0,0)
+}
+
+.navbar ul {
+  text-align: center;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block
+}
+
+.navbar ul li a {
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-size: .8rem;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 3px;
+  font-weight: 600;
+  padding-top: .4rem;
+  padding-bottom: .8rem;
+  margin: 0 8rem;
+
+}
+
+hr {
+  width: 95%
 }
 
 /* Grid Page */
